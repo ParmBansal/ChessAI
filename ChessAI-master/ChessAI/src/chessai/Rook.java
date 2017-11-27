@@ -10,10 +10,8 @@ package chessai;
  * @author Ryan
  */
 public class Rook extends Piece {
-    public String textRepresentation;
     public Rook(boolean c, int x, int y,String a) {
 	super(c, x, y, a);
-	//textRepresentation = "R";
     }
     
 }
