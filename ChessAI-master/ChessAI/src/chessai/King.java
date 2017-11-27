@@ -11,11 +11,9 @@ package chessai;
  */
 public class King extends Piece{
     
-    public String textRepresentation;
     
     public King(boolean c, int x, int y,String a) {
 	super(c, x, y,a);
-	//textRepresentation = "K";
     }
     
 }
